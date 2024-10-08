@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SimpleBlog - Dev Personal Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+          <div>
+
+            <p class="h3 nav-title">Topics</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Database</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Accessibility</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Web Performance</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Olá, Somos a <b>Strog&nbsp;Internet</b>.
+          </h1>
+
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          
+          <div class="img-box">
+            <img src="assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="" class="hero-img">
+           
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <div class="container">
+
+        <!--
+          - BLOG SECTION
+        -->
+
+        <div class="blog">
+
+          <h2 class="h2">Latest Blog Post</h2>
+
+          <div class="blog-card-group">
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="Building microservices with Dropwizard, MongoDB & Docker"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">Database</button>
+
+                <h3>
+                  <a href="#" class="h3">
+                   ST Strog Internet A sua melhor opção
+                  </a>
+                </h3>
+
+                <p class="blog-text">
+                  A empresa de internet mais nova no mercado, e com a mais nova tecnologia e segurança avançada no mercado.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2022-01-17">Jan 17, 2022</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="Fast web page loading on a $20 feature phone" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Conexão de internet</a></h3>
+
+                <p class="blog-text">
+                  Fibra Óptica: Oferecemos conexão de alta velocidade via fibra óptica, garantindo estabilidade e velocidade para todas as suas necessidades online.
+                </p>
+
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-12-10">Dec 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT2M">2 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="Accessibility Tips for Web Developers" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Conexão de internet</a></h3>
+
+                <p class="blog-text">
+                  Internet via Rádio: Ideal para áreas onde a fibra óptica não está disponível, proporcionando uma conexão confiável e rápida.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-28">Nov 28, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="Dynamically Securing Databases using Hashicorp Vault"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Link Dedicado</a></h3>
+
+                <p class="blog-text">
+                  Internet Corporativa: Conexão exclusiva e dedicada para empresas, sem compartilhamento de banda, garantindo alta disponibilidade e segurança na transferência de dados.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-20">Nov 20, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png"
+                  alt="Adaptive Loading - Improving Web Performance on low-end devices" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Serviço de Hospedagem</a></h3>
+
+                <p class="blog-text">
+                  Hospedagem de Sites: Planos de hospedagem que atendem desde pequenos sites pessoais até grandes portais corporativos.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-11-10">Nov 10, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT3M">3 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png"
+                  alt="Don't Develop Just for Yourself - A Developer's Checklist to Accessibility" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Redes de Computadores</a>
+                </h3>
+
+                <p class="blog-text">
+                  Instalação e Manutenção: Projetamos, instalamos e mantemos redes de computadores, permitindo o compartilhamento eficiente de dados e recursos entre os usuários.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internetr" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-25">Oct 25, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png"
+                  alt="Building a Restful CRUD API with Node JS, Express, and MongoDB" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Segurança da Informação</a></h3>
+
+                <p class="blog-text">
+                  Firewall e VPN: Implementação de soluções de segurança para proteger os dados da sua empresa contra ameaças externas.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-15">Oct 15, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="Monitoring Performance with the PageSpeed Insights API"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Segurança da Informação</a></h3>
+
+                <p class="blog-text">
+                  Monitoramento e Suporte: Monitoramento contínuo e suporte técnico para garantir a segurança e a integridade dos dados.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-10-03">Oct 3, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT5M">5 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png" alt="The best web accessibility tools for developers in 2021"
+                  width="250" class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Serviços de Cloud</a>
+                </h3>
+
+                <p class="blog-text">
+                  Armazenamento em Nuvem: Soluções de armazenamento seguro e escalável para seus dados.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-13">Sep 13, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT7M">7 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="blog-card">
+
+              <div class="blog-card-banner">
+                <img src="./assets/images/ST STROG INTERNET.png"
+                  alt="How to connect a React frontend with a NodeJS/Express backend" width="250"
+                  class="blog-banner-img">
+              </div>
+
+              <div class="blog-content-wrapper">
+
+                <button class="blog-topic text-tiny">ST Strog Internet A sua melhor opção</button>
+
+                <h3><a href="" class="h3">Serviços de Cloud</a></h3>
+
+                <p class="blog-text">
+                  Computação em Nuvem: Infraestrutura de nuvem para hospedar aplicações e serviços, com alta disponibilidade e flexibilidade.
+                </p>
+
+                <div class="wrapper-flex">
+
+                  <div class="profile-wrapper">
+                    <img src="./assets/images/Logotipo_Faustino_Representações_e_Vendas_Moderno_Preto_Branco-removebg-preview.png" alt="Strog - Internet" width="50">
+                  </div>
+
+                  <div class="wrapper">
+                    <a href="#" class="h4">Strog - Internet</a>
+
+                    <p class="text-sm">
+                      <time datetime="2021-09-21">Sep 21, 2021</time>
+                      <span class="separator"></span>
+                      <ion-icon name="time-outline"></ion-icon>
+                      <time datetime="PT4M">4 min</time>
+                    </p>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <button class="btn load-more">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!--
+          - ASIDE
+        -->
+
+        <div class="aside">
+
+          <div class="topics">
+
+            <h2 class="h2">Topics</h2>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="server-outline"></ion-icon>
+              </div>
+
+              <p>Database</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="accessibility-outline"></ion-icon>
+              </div>
+
+              <p>Accessibility</p>
+            </a>
+
+            <a href="#" class="topic-btn">
+              <div class="icon-box">
+                <ion-icon name="rocket-outline"></ion-icon>
+              </div>
+
+              <p>Web Performance</p>
+            </a>
+
+          </div>
+
+
+          <div class="contact">
+
+            <h2 class="h2">Let's Talk</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Do you want to learn more about how I can help your company overcome problems? Let us have a
+                conversation.
+              </p>
+
+              <ul class="social-link">
+
+                <li>
+                  <a href="#" class="icon-box discord">
+                    <ion-icon name="logo-discord"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="icon-box facebook">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="newsletter">
+
+            <h2 class="h2">Newsletter</h2>
+
+            <div class="wrapper">
+
+              <p>
+                Subscribe to our newsletter to be among the first to keep up with the latest updates.
+              </p>
+
+              <form action="#">
+                <input type="email" name="email" placeholder="Email Address" required>
+
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="wrapper">
+
+        <p class="footer-text">
+          Learn about Web accessibility, Web performance, and Database management.
+        </p>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Quick Links</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Advertise with us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="wrapper">
+
+        <p class="footer-title">Legal Stuff</p>
+
+        <ul>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Notice</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Cookie Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms Of Use</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <p class="copyright">
+      &copy; Copyright 2024 <a href="#">Teacher Web</a>
+    </p>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
